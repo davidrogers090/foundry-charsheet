@@ -21,8 +21,8 @@
   ],
   "dependencies": [],
   "socket": false,
-  "manifest": "https://raw.githubusercontent.com/davidrogers090/foundry-charsheet/main/module.json",
-  "download": "https://github.com/davidrogers090/",
+  "manifest": "https://raw.githubusercontent.com/davidrogers090/foundry-charsheet/main/charsheet5e/module.js",
+  "download": "https://github.com/davidrogers090/foundry-charsheet/archive/refs/heads/main.zip",
   "protected": false,
   "coreTranslation": false,
   "minimumSystemVersion": "1.6.0"
