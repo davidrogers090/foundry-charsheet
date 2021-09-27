@@ -31,3 +31,9 @@ jobs:
         with:
           files: charsheet5e/
           dest: charsheet5e.zip
+      
+      - uses: actions/upload-artifact@v1
+        with:
+          name: my-artifact
+          path: ${{ github.workspace }}/charsheet5e.zip
+
