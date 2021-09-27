@@ -4,7 +4,7 @@
   "description": "Replaces the default D&D 5e character sheet with an alternate layout.",
   "author": "Knifey",
   "authors": [],
-  "url": "",
+  "url": "https://github.com/davidrogers090/foundry-charsheet",
   "flags": {},
   "version": "1.6.0",
   "minimumCoreVersion": "0.8.9",
