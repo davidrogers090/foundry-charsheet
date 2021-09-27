@@ -17,7 +17,7 @@ Actors.registerSheet("dnd5e", Knifey5eSheet, {
 Hooks.once("init", () => {
 	const templatePaths = [
 		// Actor Sheet Partials
-		"modules/alt5e/templates/parts/actor-spellbook.html",
+		"modules/charsheet5e/templates/parts/actor-spellbook.html",
 	];
 	// Load the template parts
 	return loadTemplates(templatePaths);
