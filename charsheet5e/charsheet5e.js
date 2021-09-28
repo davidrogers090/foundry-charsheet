@@ -8,12 +8,18 @@ export class Knifey5eSheet extends ActorSheet5eCharacter {
       template: "modules/charsheet5e/templates/character-sheet.html"
     });
   }
+
+  /** @override */
+  get template() {
+    return "modules/charsheet5e/templates/character-sheet.html";
+  }
 }
+
 
 Actors.registerSheet("dnd5e", Knifey5eSheet, {
   types: ["character"],
   makeDefault: false,
-	label: "Knifey's Alternate 5e Sheet"
+  label: "Knifey's Alternate 5e Sheet"
 });
 
 Hooks.once("init", () => {
