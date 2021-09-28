@@ -6,7 +6,7 @@
   "authors": [],
   "url": "https://github.com/davidrogers090/foundry-charsheet",
   "flags": {},
-  "version": "1.6.0",
+  "version": "0.0.7",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "0.8.9",
   "scripts": [],
@@ -25,5 +25,5 @@
   "download": "https://github.com/davidrogers090/foundry-charsheet/releases/latest/download/charsheet5e.zip",
   "protected": false,
   "coreTranslation": false,
-  "minimumSystemVersion": "1.6.0"
+  "minimumSystemVersion": "1.4.1"
 }
