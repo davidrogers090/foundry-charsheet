@@ -3,8 +3,10 @@ import ActorSheet5e from "../../systems/dnd5e/module/actor/sheets/base.js";
 import ActorSheet5eCharacter from "../../systems/dnd5e/module/actor/sheets/character.js";
 
 export class Knifey5eSheet extends ActorSheet5eCharacter {
-  get template() {
-    return "modules/charsheet5e/templates/character-sheet.html";
+  static get defaultOptions() {
+    return mergeObject(super.defaultOptions, {
+      template: "modules/charsheet5e/templates/character-sheet.html"
+    });
   }
 }
 
